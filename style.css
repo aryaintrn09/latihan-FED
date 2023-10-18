@@ -4,33 +4,7 @@ body {
   padding: 0;
 }
 
-/* NAVBAR & TOP BAR */
-
-.container{
-  background-color: rgb(4, 33, 95);
-  padding: 15px 0;
-  z-index: 9999;
-}
-
-.top-bar{
-  display: flex;
-  margin-left: 75%;
-}
-
-.top-bar a{
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.top-bar .pendaf{
-  background-color: rgb(38, 61, 7);
-  padding: 16px 20px;
-}
-
-.top-bar .sosmed:hover  {
-  color: rgb(139, 228, 22);
-}
+/* NAVBAR*/
 
 .nav {
   max-width: 1200px;
@@ -229,12 +203,31 @@ body {
   color: white;
   font-weight: bold;
   position: absolute;
-  top: 2%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 285%);
+  transform: translate(-50%, 140%);
   z-index: 2;
   width: 50%;
   padding: 80px 20px;
   text-align: center;
   border-radius: 20px;
+}
+
+.txt-daftar{
+  padding-bottom: 10px;
+}
+
+.ayo-text a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  transition: 0.6s ease;
+}
+
+.ayo-text a:hover{
+  background-color: white;
+  color: black;
 }
