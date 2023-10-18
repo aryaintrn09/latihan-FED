@@ -4,6 +4,8 @@ body {
   padding: 0;
 }
 
+/* NAVBAR & TOP BAR */
+
 .container{
   background-color: rgb(4, 33, 95);
   padding: 15px 0;
@@ -206,3 +208,28 @@ body {
   }
 }
 
+/* AYO DAFTAR */
+.ayo{
+  padding: 20px 0;
+}
+.ayo .ayo-img{
+  display: block;
+  margin: auto;
+  width: 60%;
+  border-radius: 20px;
+}
+
+.ayo-text{
+  background-color: rgba(0, 0, 0, 0.575); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, 285%);
+  z-index: 2;
+  width: 50%;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
