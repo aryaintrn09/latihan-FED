@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    background-color: #fff;
+    /* border-bottom: 1px solid #ccc; */
+    height: 73px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+    border-top: #007bff 5px solid;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    padding-top: 25px;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;
+    
+    /* border: 1px solid #ccc;
+    border-top: none; */
+    /* padding: 10px 0; */
+  }
+  
+  .dropdown-item {
+    display: block;
+    padding: 10px 15px;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  
+main {
+    margin-top: 100px;
+}
+  
+h1 {
+    font-size: 48px;
+    margin-top: 0;
+}
+  
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+  
+  .col-md-6 {
+    width: 50%;
+    padding: 0 20px;
+}
+  
+.col-md-6 img {
+    width: 100%;
+    height: auto;
+}
+  
+h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+ul li {
+    margin-bottom: 10px;
+}
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+footer p {
+    margin: 0;
+}
