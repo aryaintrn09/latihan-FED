@@ -11,6 +11,25 @@ body {
   background-color: whitesmoke;
 }
 
+/* BAR */
+
+#wa{
+  position: fixed;
+  bottom: 1%;
+  left: 1.5%;
+  z-index: 999;
+}
+
+.what a{
+  font-size: 350%;
+  color: green;
+  transition: transform .2s;
+}
+
+.what a:hover{
+  color: rgba(2, 104, 2, 0.712);
+}
+
 /* NAVBAR*/
 
 .nav {
@@ -427,3 +446,5 @@ footer {
 .cr-icons a:hover {
   color: #007bff;
 }
+
+/*  */
