@@ -189,53 +189,53 @@ body {
 }
 
 /* AYO DAFTAR */
-.ayo{
-  padding: 20px 0;
-}
 .image {
-  display: block;
-  margin: auto;
-  overflow: hidden;
-  width: 60%;
-  border-radius: 20px;
+  display: flex ;
+  margin-left: 56%;
+  padding-bottom: 100px;
+  width: 25%;
 }
 .ayo-img{
-    width: 100%;
-    filter: blur(5px);
+    width: 80%;
+    border-radius: 25px;
 }
 
 .ayo-text{
-  background-color: rgba(0, 0, 0, 0.575); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  /* transform: translate(-50%, 200%); */
+  top: 800px;
+  left: 300px;
   z-index: 2;
   width: 50%;
-  padding: 80px 20px;
-  text-align: center;
+  text-align: left;
   border-radius: 20px;
 }
 
-.txt-daftar{
-  padding-bottom: 10px;
+.ayo-text h1{
+  font-size: 30px;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase; 
+}
+
+.ayo-text p{
+  color: #000;
+  line-height: 1.5;
 }
 
 .ayo-text a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: #fff;
   text-decoration: none;
-  color: white;
-  font-size: 20px;
-  border: 2px solid white;
-  padding: 5px 20px;
-  border-radius: 20px;
-  transition: 0.6s ease;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
 }
 
 .ayo-text a:hover{
-  background-color: white;
-  color: black;
+  background-color: #032850;
 }
 
 /* PRODI */
